@@ -14,7 +14,32 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  ${data.description}
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installations](#Installations)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributions](#Contributions)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  ## Installations
+  ${data.install}  
+  ## Usage
+  ${data.usage}
+  ## License
+  ${data.license}
+  ## Contributions
+  ${data.contributing}
+  ## Tests
+  ${data.tests}
+  ## Questions
+  ${data.user}
+  ${data.email}
+  ${data.instructions}
+  © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+  
 `;
 }
-
 module.exports = generateMarkdown;
