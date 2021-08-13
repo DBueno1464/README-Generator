@@ -6,15 +6,26 @@
   - [Description](#Description)
   - [Installations](#Installations)
   - [Usage](#Usage)
+  - [License](#License)
+  - [Contributions](#Contributions)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
   ## Installations
   Must first install package.json file by running 'npm install' in the terminal in the desired directory.  
   ## Usage
   Creating a professional README.md file for projects I am working on. This wil help prioritize more tiem for project building and less to writing up a README.
+  ## License
+  Tests instructions?
+  ## Contributions
   
+  ## Tests
   
   ## Questions
-  Github: https://github.com/DBueno1464
-  Email: DerrickBueno00@gmail.com
+  
+  
+  
+
+
   
   © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
   

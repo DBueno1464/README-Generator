@@ -65,7 +65,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // TODO: Create a function to initialize app
 const init = () => { 
     promptUser()
-    .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
+    .then((answers) => writeFileAsync('testREADME.md', generateMarkdown(answers)))
     .then(() => console.log('Successfully wrote to README.md'))
     .catch((err) => console.error(err));
 };

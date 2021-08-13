@@ -38,6 +38,9 @@ function generateMarkdown(data) {
   ${data.user}
   ${data.email}
   ${data.instructions}
+
+
+  
   © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
   
 `;
