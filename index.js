@@ -1,7 +1,10 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const util = require('util');
-const generateMarkdown = require('./utils/generateMarkdown');
+import inquirer from 'inquirer';
+// const fs = require('fs');
+// const util = require('util');
+// const generateMarkdown = require('./utils/generateMarkdown');
+import fs from 'fs';
+import util from 'util';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const promptUser = () => {
