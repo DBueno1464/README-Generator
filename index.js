@@ -1,10 +1,12 @@
 import inquirer from 'inquirer';
-// const fs = require('fs');
-// const util = require('util');
-// const generateMarkdown = require('./utils/generateMarkdown');
 import fs from 'fs';
 import util from 'util';
 import generateMarkdown from './utils/generateMarkdown.js';
+// After giving the package.json the type property of 'module' we CANNOT use require anymore on ANY package so we have to update our index.js to import all our packages. In addition, the generateMarkdown function being imported here HAS to be exported in './utils/generateMarkdown.js' by using `export default...` NOT using module.exports.
+//
+// const fs = require('fs');
+// const util = require('util');
+// const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const promptUser = () => {
